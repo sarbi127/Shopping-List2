@@ -1,0 +1,111 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Javascript </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body class= "bg-warning">
+       
+
+   
+   
+   <div class="container">
+  <h2>Choose lists</h2>
+  <div id="accordion">
+   
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#collapseOne">
+          Foodstuffs
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+        <div class="card-body"> 
+               
+        <h1>Foodstuffs List</h1>
+        <input id="userinput" type="text" placeholder="enter items">
+        <button id="enter">Add</button>
+        <ul>
+            <li><span>Spinach</span></li>
+            <li><span>Rice</span></li>
+            <li><span>Candles</span></li>
+            <li><span>Apple</span></li>
+            <li><span>Banana</span></li>
+            
+        </ul>
+       
+     </div>
+    </div>   
+    </div> 
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Furnitures
+        </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+         
+    
+     <h1>Furnitures List</h1>
+        <input id="userinput" type="text" placeholder="enter items">
+        <button id="enter">Add</button>
+        <ul>
+            <li><span>Bed</span></li>
+            <li><span>Table</span></li>
+            <li><span>Desk</span></li>
+            <li><span>Sofa</span></li>
+            <li><span>The Closet</span></li>
+        </ul>
+             
+          
+        </div>                   
+      </div>
+    </div>
+    
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+          Electronics
+        </a>
+      </div>
+      
+      <div id="collapseThree" class="collapse" data-parent="#accordion">
+         <div class="container">
+     <h1>Electronics List</h1>
+        <input id="userinput" type="text" placeholder="enter items">
+        <button id="enter">Add</button>
+        <ul>
+            <li><span>TV</span></li>
+            <li><span>Laptop</span></li>
+            <li><span>Macrowave</span></li>
+            <li><span>Hairdryer</span></li>
+            <li><span>Refrigerator</span></li>
+        </ul>
+    </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <script type="text/javascript" src="script1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

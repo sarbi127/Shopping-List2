@@ -243,7 +243,6 @@ function updateDeleteButtons() {
 }
 
 
-
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeypress);
 
@@ -266,8 +265,3 @@ deleteButton = document.querySelectorAll(".delete")
 //It gives the buttons with class the function to remove the li(todo)
 
 updateDeleteButtons()
-
-
-
-
-    
