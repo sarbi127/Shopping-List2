@@ -16,32 +16,27 @@
 </head>
 
 <body class= "bg-warning">
-   
-    <div class="container">
-     <h1>Foodstuffs List</h1>
-       <button id="enter" onclick="location.href='index-foodStuffs.html'" type="button">
-         Go To List
-       </button>
-
+       
+<div class="container ">
+  <h2></h2>
+  <div class="btn-group " >
+    <button type="enter" class="btn btn-primary">Choose your lists</button>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+      <span class="caret"></span>
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" onclick="location.href='index-foodStuffs.html'">Foodstuffs</a>
+      <a class="dropdown-item" onclick="location.href='index-furnitures.html'">Furnitures</a>
+      <a class="dropdown-item" onclick="location.href='index-electronics.html'">Electronics</a>
+     
     </div>
-    
-    <div class="container">
-     <h1>Furnitures List</h1>
-       <button id="enter" onclick="location.href='index-furnitures.html'" type="button">
-         Go To List
-       </button>
-
-    </div>
-    
-    <div class="container">
-     <h1>Electronics List</h1>
-       <button id="enter" onclick="location.href='index-electronics.html'" type="button">
-        Go To List
-       </button>
-
-    </div>
+  </div>
+</div>
     
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

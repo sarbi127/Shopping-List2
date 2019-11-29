@@ -8,8 +8,6 @@ body {
 
 }
 
-
-
 .container {
 
     width: 500px;
@@ -20,14 +18,10 @@ body {
 
 }
 
-
-
 h1 {
 
     font-size: 3em;
 }
-
-
 
 #userinput {
 
@@ -36,25 +30,18 @@ h1 {
 
 }
 
-
-
 #enter {
 
     height: 2em;
     width: 6em;
     cursor: pointer;
     border-radius: 8px;
-
-
 }
 
 ul {
 
     list-style: none;
-
 }
-
-
 
 span {
 
@@ -64,52 +51,11 @@ span {
 
 }
 
-
-
-span::before,
-
-span::after {
-
-    content: '';
-    position: absolute;
-    display: inline-block;
-
-}
-
-span::before {
-
-    background: rgba(255, 255, 255, .7);
-    border-radius: 10px;
-    padding: 3px 5px;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-
-}
-
-
-
-span::after {
-
-    background: #433;
-    height: 50%;
-    width: 500px;
-    left: 50%;
-    transform: translateX(-51%);
-    z-index: -3;
-    top: 0.2em;
-
-}
-
-
-
 .done {
-
+     background: #888;
     text-decoration: line-through;
 
 }
-
-
 
 .delete {
 
@@ -120,10 +66,15 @@ span::after {
 
 }
 
-
-
 li:hover .delete {
     opacity: 1;
 
 }
+
+/* background-color on hover */
+ul li:hover {
+  background: #01DFD7;
+}
+
+
 
